@@ -1,0 +1,13 @@
+@keyframes autoZoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .auto-zoom {
+    animation: autoZoom 20s infinite alternate;
+  }
+  
